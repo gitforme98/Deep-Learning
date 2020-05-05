@@ -9,6 +9,9 @@ Dataset of 25,000 movies reviews from IMDB, labeled by sentiment (positive/negat
 As a convention, "0" does not stand for a specific word, but instead is used to encode any unknown word.
 
 
-
-
+ ### **2. Model**
+ 
+ 
+ Layer 1 - Embedding - Converts word tokens integers into dense vectors called embedding
+ Layer 2 - LSTM -
 

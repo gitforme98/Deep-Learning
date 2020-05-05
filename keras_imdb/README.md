@@ -1,8 +1,8 @@
-## Sentiment Analysis of imdb movie reviews using Deep Learning (RNN LSTM)
+# Sentiment Analysis of imdb movie reviews using Deep Learning (RNN LSTM)
 
-The dataset is keras build in imdb movie review ,thus the dataset is preprocessed.
+The dataset is keras build in imdb movie review.
 
- # **1. Information about the dataset**
+ ### **1. Information about the dataset**
 IMDB Movie reviews sentiment classification
 Dataset of 25,000 movies reviews from IMDB, labeled by sentiment (positive/negative). Reviews have been preprocessed, and each review is encoded as a sequence of word indexes (integers). For convenience, words are indexed by overall frequency in the dataset, so that for instance the integer "3" encodes the 3rd most frequent word in the data. This allows for quick filtering operations such as: "only consider the top 10,000 most common words, but eliminate the top 20 most common words".
 

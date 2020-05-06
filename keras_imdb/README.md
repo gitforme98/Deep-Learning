@@ -11,10 +11,18 @@ As a convention, "0" does not stand for a specific word, but instead is used to 
 
  ### **2. Model**
  
- 
- 
- Layer 1 - Embedding - Converts word tokens i.e integers into dense vectors called embedding.These gets updated while traning the module.
- Layer 2 - LSTM - 
- Layer 3 - Dense - 1 neuron output - activation as sigmoid - 
 
-![image](keras_imdb/sentiment_analysis_rnn.JPG)
+ 
+ 
+.
+
+Layer 2 - LSTM -   Embeddings of words are fed to this layer.This layer studies the sequence of data and produces a encoded sequence.LSTM has ability to remenber previous information and hence can be used for this appication.
+ 
+ Layer 3 - Dense - 1 neuron output - activation as sigmoid - input is the output from the last timestep of LSTM layer. Gives positive or negative sentiment.
+
+
+
+### **3. Result**
+With training on 16000 samples and with 4 epochs-
+Training Accuracy obtained - 92%
+Testing on 8000 samples Accuracy - 85%

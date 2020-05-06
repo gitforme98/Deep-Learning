@@ -14,7 +14,7 @@ As a convention, "0" does not stand for a specific word, but instead is used to 
 
  
  
-.
+ Layer 1 - Embedding - Converts word tokens i.e integers into dense vectors called embedding.These gets updated while the module is      learning
 
 Layer 2 - LSTM -   Embeddings of words are fed to this layer.This layer studies the sequence of data and produces a encoded sequence.LSTM has ability to remenber previous information and hence can be used for this appication.
  

@@ -17,3 +17,4 @@ As a convention, "0" does not stand for a specific word, but instead is used to 
  Layer 2 - LSTM - 
  Layer 3 - Dense - 1 neuron output - activation as sigmoid - 
 
+![alt text](keras_imdb/sentiment_analysis_rnn.JPG)

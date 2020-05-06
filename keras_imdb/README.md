@@ -12,6 +12,8 @@ As a convention, "0" does not stand for a specific word, but instead is used to 
  ### **2. Model**
  
  
- Layer 1 - Embedding - Converts word tokens integers into dense vectors called embedding
- Layer 2 - LSTM -
+ 
+ Layer 1 - Embedding - Converts word tokens i.e integers into dense vectors called embedding.These gets updated while traning the module.
+ Layer 2 - LSTM - 
+ Layer 3 - Dense - 1 neuron output - activation as sigmoid - 
 

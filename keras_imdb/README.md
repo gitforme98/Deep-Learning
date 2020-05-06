@@ -12,7 +12,7 @@ As a convention, "0" does not stand for a specific word, but instead is used to 
  ### **2. Model**
  
 
- 
+![image](sentiment_analysis.PNG)
  
  Layer 1 - Embedding - Converts word tokens i.e integers into dense vectors called embedding.These gets updated while the module is      learning
 
